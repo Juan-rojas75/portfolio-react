@@ -26,8 +26,8 @@ const Navbar = ({ links }) => {
   const handleLinkClick = (e, href) => {
     e.preventDefault();
     const target = document.getElementById(href);
-    const offset = isFixed ? 64 : 128; // Ajusta este valor según la altura del navbar
-    const additionalOffset = 20; // Margen adicional para evitar que el contenido quede oculto
+    const offset = isFixed ? 64 : 138; // Ajusta este valor según la altura del navbar
+    const additionalOffset = 200; // Margen adicional para evitar que el contenido quede oculto
     const bodyRect = document.body.getBoundingClientRect().top;
     const elementRect = target.getBoundingClientRect().top;
     const elementPosition = elementRect - bodyRect;
@@ -48,13 +48,15 @@ const Navbar = ({ links }) => {
   return (
     <nav className={`${isFixed ? 'fixed top-0 bg-white' : 'block bg-transparent'} z-10 w-full py-6 px-8 shadow-md shadow-gray-200 transition-all duration-700`}>
     <div className="sm:mx-20 lg:mx-40 flex flex-row flex-wrap justify-between items-center">
-      <a href="#" className="text-black text-xl font-bold font-rubik">
-          JuanRC 
-        </a>
+    <img
+          width="80px"
+          src={process.env.PUBLIC_URL + "/Logo_JMRC.png"}
+          alt="Foto"
+        />
         <div className="sm:hidden relative">
           <button 
             onClick={handleMenuToggle} 
-            className="text-black hover:text-white hover:bg-red-500 rounded-lg px-2 py-1 transition-all duration-150"
+            className="text-black hover:text-white hover:bg-red-900 rounded-lg px-2 py-1 transition-all duration-150"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path d="M20 7H4"/><path d="M20 12H4" opacity=".5"/><path d="M20 17H4"/></g></svg>
           </button>
@@ -64,7 +66,7 @@ const Navbar = ({ links }) => {
                 <a 
                   href={`#${link.href}`} 
                   onClick={(e) => handleLinkClick(e, link.href)}
-                  className="font-bold block px-4 py-2 text-black hover:text-white hover:bg-red-500 rounded-lg transition-all duration-150"
+                  className="font-bold block px-4 py-2 text-black hover:text-white hover:bg-red-900 rounded-lg transition-all duration-150"
                 >
                   {link.text}
                 </a>
@@ -78,7 +80,7 @@ const Navbar = ({ links }) => {
               <a 
                 href={`#${link.href}`} 
                 onClick={(e) => handleLinkClick(e, link.href)}
-                className="font-bold text-black hover:text-white hover:bg-red-500 rounded-xl px-2 py-1 transition-all duration-150"
+                className="font-bold text-black hover:text-white hover:bg-pink-900 rounded-xl px-2 py-1 transition-all duration-150"
               >
                 {link.text}
               </a>
