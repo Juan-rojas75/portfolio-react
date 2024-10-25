@@ -1,0 +1,25 @@
+{
+    "title_contact_me": "Contactame",
+    "description_contact_me": "Estoy aquí para ayudarte con cualquier pregunta, inquietud o proyecto en el que necesites mi colaboración. No dudes en comunicarte conmigo a través de cualquiera de los medios que se indican a continuación. Me encantaría saber de ti y conversar sobre cómo puedo ayudarte a lograr tus objetivos.",
+    "title_form_contact": "¿Qué pasa?",
+    "name_form_contact": "Tu nombre (obligatorio)",
+    "email_form_contact": "Tu correo (obligatorio)",
+    "subject_form_contact": "Asunto (obligatorio)",
+    "message_form_contact": "Mensaje (obligatorio)",
+    "button_form_contact": "Contactame",
+    "placeholder_name": "Nombre completo",
+    "placeholder_email": "Direccion de correo",
+    "placeholder_subject": "Asunto",
+    "placeholder_message": "Mensaje",
+    "title_projects": "¿Qué he creado?",
+    "description_projects": "Aquí puedes ver algunos de los proyectos creados por mi.",
+    "title_about_me": "¡Me apasiona ser desarrollador!",
+    "description_about_me": "Hola, soy Juan. A mis {AGE} años, trabajo como desarrollador full-stack. Mi camino en la programación comenzó en 2018, y comencé a especializarme en desarrollo full-stack en 2020. Actualmente, además de codificar, me sumerjo en el estudio de startups y estrategias de negocios. Fuera de mis intereses profesionales, disfruto jugar voleibol y ponerme al día con mis series de televisión favoritas. Me dedico a mi oficio y me esfuerzo continuamente por aprender y crecer tanto en tecnología como en la vida.",
+    "title_skills": "Habilidades",
+    "description_skills": "¡Hola! Solo quería compartir un poco sobre lo que puedo hacer como desarrollador. A continuación, encontrarás una lista de mis principales habilidades y experiencia. Desde el desarrollo full-stack hasta el trabajo con varios lenguajes de programación, tengo un conjunto de herramientas sólido que siempre estoy ampliando. ¡Échale un vistazo!",
+    "greeting": "Hola, soy yo.",
+    "position": "Desarrollador Full-Stack",
+    "copyright": "Todos los derechos reservados."
+
+
+}
